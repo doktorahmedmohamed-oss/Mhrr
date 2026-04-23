@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+
+<html lang="ar" >
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>محرر الأكواد لتصميم الألعاب</title>
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+<img src="صورة.png">   
+    <div class="container">أكتب الاكواد هنا 
+        <!-- حاوية رئيسية تحتوي على المحرر والمعاينة -->
+<hr>
+        <div class="editor-side">
+            <!-- القسم الخاص بكتابة الأكواد -->
+<hr>
+            <label>HTML</label>
+<br>
+            <textarea id="html-code" placeholder="اكتب كود HTML هنا..."></textarea>
+            <!-- مربع نص لكتابة كود HTML
+                 id يُستخدم للوصول إليه عبر JavaScript -->
+<hr>
+<br>
+            <label>CSS</label>
+            <!-- عنوان حقل كتابة كود CSS -->
+<br>
+
+            <textarea id="css-code" placeholder="اكتب كود CSS هنا..."></textarea>
+            <!-- مربع نص لكتابة كود CSS -->
+<hr>
+<br>
+            <label>JavaScript</label>
+            <!-- عنوان حقل كتابة كود JavaScript -->
+<br>
+            <textarea id="js-code" placeholder="اكتب كود JS هنا..."></textarea>
+            <!-- مربع نص لكتابة كود JavaScript -->
+        </div>
+<hr>
+        <div class="output-side">
+            <!-- القسم الخاص بعرض نتيجة الأكواد -->
+
+            <label>النتيجة (المعاينة الحية)</label>
+            <!-- عنوان نافذة المعاينة -->
+
+            <iframe id="output"></iframe>
+            <!-- إطار iframe لعرض النتيجة المباشرة للكود
+                 يتم تحديثه عبر JavaScript -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- ربط ملف JavaScript المسؤول عن تشغيل المحرر
+         مثل قراءة الأكواد وعرضها داخل iframe -->
+</body>
+</html>

@@ -1,0 +1,29 @@
+.label{
+      color: #1B2485;
+      text-align: left;
+      font-size: 30px;
+    }
+body{
+        background-color: #0CE020;
+    }
+.container {
+        background-color:#E3FF90;
+    border-box:box-sizing ;
+    text-align: center;
+    color:#FF0035;
+    }
+.output-side{
+        background-color: #FFB919;
+        color: #D70000;
+    }
+.editor-side{
+        background-color: #A1FF97;
+    }
+textarea{
+        background-color: #8EF7FF;
+        color:#FF0000;
+    }
+img{
+    width: 340px;
+    height: 300px;
+}

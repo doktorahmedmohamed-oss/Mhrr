@@ -1,0 +1,24 @@
+.rtl{
+  color:#DB73FF;
+  background-color: #08FF7D;
+  text-align: center;
+}
+body{
+  background-color: #00E7FF;
+}
+.pa{
+  color:#FF7B04;
+  font-size: 30px;
+  text-align: right;
+}
+.par{
+  color:#0495FF;
+  font-size: 30px;
+  text-align: right;
+}
+button{
+  
+  color:#003AFF;
+  background-color: #00FF37;
+  font-size: 30px;
+}
